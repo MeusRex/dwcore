@@ -1,0 +1,62 @@
+{
+	"name": "dwcore",
+	"title": "Dunkelwalde Core Lib",
+	"description": "Packs and stuff",
+	"author": "cedi",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.8.6",
+	"packs": [
+		{
+			"name": "dwarfen-foundry",
+			"label": "Dwarfen Foundry (DWC)",
+			"path": "./packs/dwarfen-foundry.db",
+			"entity": "Scene"
+		},
+		{
+			"name": "actors",
+			"label": "Actors (DWC)",
+			"path": "./packs/actors.db",
+			"entity": "Actor"
+		},
+		{
+			"name": "dwarf-tower",
+			"label": "Dwarf Tower (DWC)",
+			"path": "./packs/dwarf-tower.db",
+			"entity": "Scene"
+		},
+		{
+			"name": "journals",
+			"label": "Journals (DWC)",
+			"path": "./packs/journals.db",
+			"entity": "JournalEntry"
+		},
+		{
+			"name": "light-woods",
+			"label": "Light Woods (DWC)",
+			"path": "./packs/light-woods.db",
+			"entity": "Scene"
+		},
+		{
+			"name": "roads",
+			"label": "Roads (DWC)",
+			"path": "./packs/roads.db",
+			"entity": "Scene"
+		},
+		{
+			"name": "urban",
+			"label": "Urban (DWC)",
+			"path": "./packs/urban.db",
+			"entity": "Scene"
+		}
+	],
+	"scripts": [
+		"./scripts/entry.js"
+	]
+	"dependencies": [
+		{
+		  "name": "scene-packer",
+		  "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+		  "type": "module"
+		}
+	]
+}
